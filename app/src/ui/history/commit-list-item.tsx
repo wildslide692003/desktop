@@ -127,6 +127,7 @@ export class CommitListItem extends React.PureComponent<
           DropTargetSelector.Branch,
           DropTargetSelector.PullRequest,
           DropTargetSelector.Commit,
+          DropTargetSelector.ListInsertionPoint,
         ]}
       >
         <div
